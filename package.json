@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "Demo to show how PWA architecture works",
   "main": "index.html",
-  "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "node ./src/app.js"
   },
   "author": "Vitor Fonseca",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^5.0.10",
-    "vite-plugin-mkcert": "^1.17.2"
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
   }
 }
